@@ -27,12 +27,17 @@ header{
 }
 
 body{
-    background-color: rgb(116, 234, 255);
+    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
     margin: 0;
     padding: 0;
     font-family: 'Dosis', sans-serif;
     font-size: 15;
+<<<<<<< Updated upstream
     color: rgb(0, 0, 0)
+=======
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+>>>>>>> Stashed changes
 }
 
 #slider{

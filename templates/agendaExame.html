@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Ministério da Saude - Agenda de Exames e Consultas</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../imagens/ministérioico.ico"/>
+        <link rel="stylesheet" type="text/css" href="../css/styleExame.css"><!--Conecta ao CSS-->
+    </head>
+
+    <body>
+        <header id="home">
+            <div class="logo"><img id="logominis" src="../imagens/ministério.png" alt="logo"></div>
+            <nav>
+                <ul>
+                    <a href="../templates/index.html"><li>Voltar</li></a>
+                </ul>
+            </nav>
+        </header>
+        <br>
+        <div>
+            <h1 class="txt">Agende seu exame ou consultas por aqui</h1>
+                <div class="custom">
+                    <input type="checkbox" name="Presencial" id="presencial"/>Presencial
+                    <input type="checkbox" name="Online" id="online"/>Online
+                    
+                </div>
+
+                <div class="search-box">
+                    <input class="search-txt" type="search" name="Especialistas" placeholder="Digite a Especialidade" list="sugestao" autofocus>
+                    <a class="search-bnt" href="#">
+                        <i class="fas fa-search"><img id="pesquisa" src="../imagens/pesquisa.png" alt="logo"></i>
+                    </a>
+
+                    <datalist id="sugestao">
+                        <option value="Cardiologia Clinica"></option>
+                        <option value="Clinica Médica Geral"></option>
+                        <option value="Ginecologia Clinica"></option>
+                        <option value="Pneumonia Clinica"></option>                        
+                    </datalist>                          
+                </div>
+        </div>
+
+
+    </body>
+</html>

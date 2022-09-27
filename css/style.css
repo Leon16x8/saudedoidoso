@@ -32,12 +32,8 @@ body{
     padding: 0;
     font-family: 'Dosis', sans-serif;
     font-size: 15;
-<<<<<<< Updated upstream
-    color: rgb(0, 0, 0)
-=======
     color: rgb(0, 0, 0);
     min-height: 100vh;
->>>>>>> Stashed changes
 }
 
 #slider{

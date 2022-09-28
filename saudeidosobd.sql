@@ -1,6 +1,7 @@
 create database saudeidoso;
 use saudeidoso;
 
+
 create table cuidador(
 cod int not null auto_increment primary key,
 email varchar(150) not null,
@@ -27,22 +28,54 @@ etnia varchar(50) not null,
 religião varchar(50) not null
 ) Engine = InnoDB;
 
-create table abaMonitoramento(
-cod int not null auto_increment primary key,
-pressão varchar(150) not null,
-diabete float not null,
-dieta varchar(150) not null,
-kilo float not null,
-altura decimal(10,2)
-) Engine = InnoDB;
-
 create table abaAgenda(
 cod int not null auto_increment primary key,
 exame date not null, 
 consulta date not null
 )Engine = InnoDB;
 
+create table ajuda(
+codigo int primary key not null auto_increment,
+duvida varchar(100),
+ajuda varchar(100)
+)engine = InnoDB;
+
+create table altura(
+codigo int primary key not null auto_increment,
+dia date,
+hora time,
+altura varchar(10)
+)engine = InnoDB;
+
+create table diabetes(
+codigo int primary key not null auto_increment,
+dia date,
+hora time,
+diabetes varchar(10)
+)engine = InnoDB;
+
+create table dieta(
+codigo int primary key not null auto_increment,
+dia date,
+hora time,
+dieta varchar(100)
+)engine = InnoDB;
+
+create table peso(
+codigo int primary key not null auto_increment,
+dia date,
+hora time,
+peso varchar(10)
+)engine = InnoDB;
+
+create table pressao(
+codigo int primary key not null auto_increment,
+dia date,
+hora time,
+pressao varchar(10)
+)engine = InnoDB;
 
 select * from cliente;
 select * from cuidador;
 drop table cuidador;
+drop table abaMonitoramento;

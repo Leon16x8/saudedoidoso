@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 /* Todos os elementos da página */
 * {
     margin: 0;
@@ -6,10 +8,10 @@
 
 h1 {
     font-size: 33px;
-    background: -webkit-linear-gradient(#eee, rgb(116, 234, 255));
+    background: rgb(0, 0, 0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+}
 
 /* Elementos com o ID "titulo" */
 #titulo {
@@ -36,18 +38,19 @@ fieldset {
 
 /* Elemento de tag <body> */
 body{
-    background-color: #F0F8FF;
-    font-family: sans-serif;
+    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
+    font-family: 'Dosis', sans-serif;
     font-size: 1em;
     color: #0e18a8;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
+    min-height: 100vh;
 }
 
 /* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
 input, select, textarea, button {
-    font-family: sans-serif;
+    font-family: 'Dosis', sans-serif;
     font-size: 1em;
     color: #0e18a8;
     border-radius: 5px;
@@ -110,7 +113,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     position: absolute;
-    top: 90%;
+    top: 75%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%)

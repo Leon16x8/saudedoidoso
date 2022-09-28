@@ -1,44 +1,64 @@
 <html>
 <!DOCTYPE html>
+
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="../css/styloTelaDadosPessoais.css">
+    <link rel="stylesheet" href="../css/styleDadosPessoais.css">
     <title>DadosPessoais</title>
 </head>
 
 <body>
-            <div class="textos">
-            <form>
-                   <input type="nomecomp" name="nomeCompleto" placeholder="Digite seu Nome Completo" autofocus>
-                   <input type="apelido" name="apelido" placeholder="Apelido/Nome social" autofocus>
-                   <input type="cartaoSUS" name="cartaoSUS" placeholder="N° cartao SUS" autofocus>
-                   <input type="rg" name="rg" placeholder="RG" autofocus>
-                   <input type="cpf" name="cpf" placeholder="CPF" autofocus>
-                   <input type="nomedamae" name="nomedamae" placeholder="Nome Completo Da Mae" autofocus>
-                   <input type="apelidomae" name="apelidomae" placeholder="Apelido/Nome social" autofocus>
-                   <input type="text" name="Mumu" placeholder="Municipio de nascimento/UF">
-                </form>
-            </div>
+    <div class="textos">
+        <form>
+            <input type="nomecomp" name="nomeCompleto" placeholder="Digite seu Nome Completo" autofocus>
+            <input type="apelido" name="apelido" placeholder="Apelido/Nome social" autofocus>
+            <input type="cartaoSUS" name="cartaoSUS" placeholder="N° cartao SUS" autofocus><br>
+            <input type="rg" name="rg" placeholder="RG" autofocus>
+            <input type="cpf" name="cpf" placeholder="CPF" autofocus>
+            <input type="nomedamae" name="nomedamae" placeholder="Nome Completo Da Mae" autofocus><br>
+            <input type="apelidomae" name="apelidomae" placeholder="Apelido/Nome social" autofocus>
+            <input type="text" name="Mumu" placeholder="Municipio de nascimento/UF">
+        </form>
+    </div>
 
-            <form>
-            <div class="checkbox/date">
-                    <a>Sexo</a>
+    <form>
+        <div class="checkbox/date">
+            <h3>Sexo:</h3>
+            <input type="radio" name="mas/fem" id="masc" placeholder="Masculino">Masculino
+            <br><input type="radio" name="mas/fem" id="fem" placeholder="Feminino">Feminino
+            <br><input type="date" name="data" placeholder="00/00/00" autofocus><br>
 
-                    <input type="checkbox" name="masculino" id="masc" placeholder="Masculino">Masculino
-                    <input type="checkbox" name="feminino" id="fem" placeholder="Feminino">Feminino
-                    <input type="date" name="data" placeholder="00/00/00" autofocus>
-                
-                    <a2>Nacionalidade</a2>
-                    <input type="checkbox" name="brasileira" id="bras" placeholder="Brasileira">Brasileira
-                    <input type="checkbox" name="naturalizada" id="nat" placeholder="Naturalizada">Naturalizada
-                    <input type="checkbox" name="estrangeira" id="est" placeholder="Estrangeira">Estrangeira
-            </form>
-            </div>
-         
+            <h3>Nacionalidade:</h3>
+            <input type="radio" name="bras/nat/est" id="bras" placeholder="Brasileira">Brasileira
+            <br><input type="radio" name="bras/nat/est" id="nat" placeholder="Naturalizada">Naturalizada
+            <br><input type="radio" name="bras/nat/est" id="est" placeholder="Estrangeira">Estrangeira<br>
+
+            <h3>Escolaridade:</h3>
+            <input type="radio" name="alfabetizado/naoalfabetizado" id="alfabetizado" placeholder="Alfabetizado(a)">Alfabetizado(a)
+            <br><input type="radio" name="alfabetizado/naoalfabetizado" id="naoalfabetizado" placeholder="Não Alfabetizado(a)">Não Alfabetizado(a)<br>
+
+            <h3>Raça/Cor:</h3>
+            <input type="radio" name="Branca/Preto/Parda/Indi/NaoDeclarada" id="Branc" placeholder="Branca">Branca
+            <input type="radio" name="Branca/Preto/Parda/Indi/NaoDeclarada" id="Pret" placeholder="Preta">Preta
+            <input type="radio" name="Branca/Preto/Parda/Indi/NaoDeclarada" id="Pard" placeholder="Parda">Parda
+            <input type="radio" name="Branca/Preto/Parda/Indi/NaoDeclarada" id="Indig" placeholder="Indigena">Indigena
+            <input type="radio" name="Branca/Preto/Parda/Indi/NaoDeclarada" id="NaDe" placeholder="NaoDeclarada">Não declarada
+            <input type="text" name="ET" placeholder="Qual sua Etnia?"><br>
+
+            <h3>Tem Religião?</h3>
+            <input type="radio" name="sim/nao" id="sim" placeholder="sim">Sim
+            <input type="radio" name="sim/nao" id="nao" placeholder="não">Não
+            <a>Qual?</a>
+            <input type="text" name="religiao" placeholder="Digite sua religião">
 
 
-        </section>
-    </body>
-    
-    </html>
+    </form>
+    </div>
+
+
+
+    </section>
+</body>
+
+</html>
 </body>

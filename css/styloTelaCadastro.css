@@ -37,7 +37,7 @@ body{
     margin-top: 10px;
     background-color: rgb(197, 246, 248);
     border: none;
-    height: 20px;
+    height: 19px;
     outline: none;
     border-radius: 10px;
     padding-left: 9px;
@@ -77,10 +77,6 @@ a{
     margin-left: 40px;
     text-align: left;
     font-size: 17px;
-}
-
-#cadcad{
-    margin-top: 0%;
 }
 
 .campo {

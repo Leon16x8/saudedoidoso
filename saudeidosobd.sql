@@ -4,6 +4,9 @@ use saudeidoso;
 
 create table cuidador(
 cod int not null auto_increment primary key,
+nome varchar(150) not null, 
+usu  varchar(150) not null,
+pswd varchar(150) not null,
 email varchar(150) not null,
 telefone bigint(11) not null, 
 cpf bigint(11) not null, 
@@ -12,6 +15,9 @@ rg bigint(9) not null
 
 create table cliente(
 cod int not null auto_increment primary key,
+usu varchar(150) not null,
+pswd varchar(150) not null,
+email varchar(150) not null,
 nome varchar(150) not null,
 apelido varchar (50) not null,
 sus bigint(15) not null,

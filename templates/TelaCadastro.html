@@ -19,34 +19,34 @@
             
             <h2 id="checkbox">Escolha o tipo de conta</h2>
                 <div id="checkbox" class="custom radio">
-                 <input type="checkbox" name="Cuidador" id="cuid">CUIDADOR
-                 <input type="checkbox" name="Idoso" id="Idos">IDOSO
+                 <input type="radio" name="cuidador/idoso" id="cuid" checked>CUIDADOR
+                 <input type="radio" name="cuidador/idoso" id="Idos">IDOSO
                 </div>
 
           <form>
-                <input type="nome" name="nomeidoso" placeholder="Digite seu Nome" autofocus>
-                <input type="sobrenome" name="sobrenome" placeholder="Digite seu Sobrenome" autofocus>
-                <input type="user" name="user" placeholder="Digite seu Nome de Usuario" autofocus>
-                <input type="cpf" name="cpf" placeholder="Digite seu CPF" autofocus>
-                <input type="rg" name="rg" placeholder="Digite seu RG" autofocus>
-                <input type="email" name="email" placeholder="Digite seu E-mail" autofocus>  
-                <input type="telefone" name="telefone" placeholder="Digite seu Telefone | Ex:(+55 11 99999-9999)" autofocus>
-                <input type="password1" name="senha" placeholder="Digite sua Senha"> 
-                <input type="password2" name="senha" placeholder="Digite Novamente sua Senha"> 
+                <input type="nome" name="nomeidoso" placeholder="Digite seu Nome" required>
+                <input type="sobrenome" name="sobrenome" placeholder="Digite seu Sobrenome" required>
+                <input type="user" name="user" placeholder="Digite seu Nome de Usuario" required>
+                <input type="number" name="cpf" placeholder="Digite seu CPF" required>
+                <input type="number" name="rg" placeholder="Digite seu RG" required>
+                <input type="email" name="email" placeholder="Digite seu E-mail" required>  
+                <input type="telefone" name="telefone" placeholder="Digite seu Telefone | Ex:(+55 11 99999-9999)" required>
+                <input type="password" name="senha" placeholder="Digite sua Senha" required> 
+                <input type="password" name="senha" placeholder="Digite Novamente sua Senha" required> 
 
                <div class="campo">
                     <label><strong>Qual seu sexo?</strong></label>
                     <label>
-                    <input type="radio" name="devweb" value="masculino" checked>Masculino
+                    <input type="radio" name="sexo" value="masculino">Masculino
                     </label>
                     <label>
-                    <input type="radio" name="devweb" value="feminino">Feminino
+                    <input type="radio" name="sexo" value="feminino">Feminino
                     </label>
                     <label>
-                    <input type="radio" name="devweb" value="outros">Outros
+                    <input type="radio" name="sexo" value="outros" checked>Outros
                     </label>
                 </div>
-               <a2 href="TelaLogin.html" id="cadcad"><input type="submit" value="cadastrar"></a2>
+                <button class="botao" type="submit" onsubmit="">Cadastrar</button>   
           </form>
 
     </section>

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 body{
-    background-color: rgb(198, 255, 255);
+    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
     font-family: 'Dosis', sans-serif;
     overflow: hidden;
 }

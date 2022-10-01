@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 body{
-    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
+    background-color: rgb(198, 255, 255);
     font-family: 'Dosis', sans-serif;
     overflow: hidden;
 }
@@ -48,6 +48,21 @@ body{
     padding-left: 20px;
 }
 
+#inputo{
+    color: rgb(197, 246, 248);
+    text-decoration: none;
+    margin-left: 8px;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: rgb(0, 103, 129);
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 30px;
+
+ }
 
 input::placeholder{
     font-size: 15px;

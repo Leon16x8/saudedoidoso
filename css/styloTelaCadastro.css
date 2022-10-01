@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 body{
-    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
+    background-color: rgb(198, 255, 255);
     font-family: 'Dosis', sans-serif;
     overflow: hidden;
 }
@@ -49,6 +49,14 @@ input::placeholder{
     font-style: italic;
 }
 
+form [type="submit"]{
+    display: block;
+    background-color: rgb(67, 177, 204);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
 
 a{
     color: rgb(0, 103, 129);
@@ -66,7 +74,7 @@ a{
 
 #checkbox{
     margin-top: 1%;
-    margin-left: 30px;
+    margin-left: 40px;
     text-align: left;
     font-size: 17px;
 }
@@ -90,33 +98,4 @@ fieldset.grupo .campo {
 /* Elementos de classe "campo" de tag <select> e <option>*/
 .campo select option {
     padding-right: 1em;
-}
-
-/* Elemento de classe "botao" */
-.botao {
-    font-size: 1.2em;
-    background: #205bff;
-    border: 0;
-    margin-bottom: 1em;
-    color: #ffffff;
-    padding: 0.2em 0.6em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 94%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
-}
-
-/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
-.botao:hover {
-    background: #4671ff;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-}
-
-/* Elementos de classe botão e de tag <select> */
-.botao, select{
-    cursor: pointer;
 }

@@ -36,6 +36,35 @@
                 </div>
         </div>
 
+        <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+        <div class="campo">
+            <label for="senioridade"><strong>Local</strong></label>
+            <select id="senioridade" required>
+              <option selected disabled value="">Selecione</option>
+              <option>UBS SÉ</option>
+              <option>UBS JARDIM NORDESTE</option>
+              <option>UBS BRÁS</option>
+              <option>UBS VILA NOGUEIRA</option>
+              <option>UBS PIRAPORINHA</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+        
+        <!-- Botão para enviar o formulário -->
+        <button class="botao" type="submit" onsubmit="">Concluído</button> 
+        
+        <div class="campo">
+            <label for="datadenascimento"><strong>Agende o dia</strong></label>
+            <input type="date" name="datadenascimento" id="datadenascimento" required>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
+
 
     </body>
 </html>

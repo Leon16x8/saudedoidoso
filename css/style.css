@@ -21,11 +21,13 @@ header{
     height: 6vh;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(35, 85, 250);
+    border-color: rgb(55, 34, 247);
+    border-style: inset;
 }
 
 body{
-    background: -webkit-linear-gradient(bottom, #fff, rgb(116, 234, 255));
+    background: -webkit-linear-gradient(bottom, rgb(255, 255, 255), rgb(176, 219, 255));
     margin: 0;
     padding: 0;
     font-size: 15;
@@ -91,8 +93,11 @@ ul{
 	line-height: 1.8;
     text-align: center;
     color: rgb(0, 0, 0);    
-    background-color: rgb(255, 255, 255);
-    padding: 8px;
+    background-color: rgb(35, 85, 250);
+    padding: 4px;
+    border-style: none;
+    border-color: rgb(0, 0, 0);
+    
 }
 
 #apresentacao{
@@ -154,8 +159,7 @@ ul{
   }
   
   .footer-distributed{
-      background: rgb(0, 12, 53);
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+      background: rgb(35, 85, 250);
       box-sizing: border-box;
       width: 100%;
       text-align: left;
